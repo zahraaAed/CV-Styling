@@ -1,0 +1,135 @@
+h4{
+    color:red;
+  }
+
+  header div{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    padding-left: 100px;
+    background-color: gray;
+    padding: 10px 140px;
+  }
+  header div{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    padding-left: 100px;
+    background-color: gray;
+    padding: 10px 140px;
+  }
+  .content{
+    padding:60px 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 20px;
+}
+h3 {
+    position: relative;
+   
+  }
+  
+  h3::before {
+    content: "\2022"; /* Unicode character for a circle bullet */
+    display: inline-block;
+    margin-right: 0.3em;
+    color: #ff0000;
+    font-size: 2em;
+    
+  }
+
+  h3::after {
+    content: "";
+    display: block;
+    width: 200%;
+    height: 2px;
+    background-color: gray; /* You can change the color as needed */
+    position: absolute;
+    bottom: -5px; /* Adjust the distance of the line from the heading */
+    left: 0;
+  }
+
+  #contact h3{
+    display: none;
+  }
+  #contact{
+  position: absolute;
+  top: 7px;
+  right: 0;
+  line-height: 1.5;
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0%;
+    padding-right: 470px;
+  
+  }
+  .contact-type{
+  background-color: red;
+  color: white;
+  width: 245px;
+  padding: 3px;
+  }
+  .contact-value{
+    background-color: black;
+    display: block;
+    width: 100%;
+  margin: 0%;
+  padding: 3px;
+  padding-right: 100px;
+  }
+  
+  .skill{
+    background-color: gray;
+    line-height: 2;
+margin-bottom: 4px;
+padding: 3px;
+  }
+.skills-primary::before{
+content: "Main";
+font-size: 20px;
+display: inline-block;
+margin-left: 0px;
+}
+.skills-secondary::before{
+  content: "other";
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 10px;
+  }
+  .skill[data-skill="5"] span{
+    width: 50%;
+        background-color: red;
+        display: inline-block;
+      }
+      .skill[data-skill="3"] span{
+        width: 30%;
+            background-color: red;
+            display: inline-block;
+          }
+          .skill[data-skill="1"] span{
+            width: 10%;
+                background-color: red;
+                display: inline-block;
+              }
+              .skill[data-skill="9"] span{
+                width: 90%;
+                    background-color: red;
+                    display: inline-block;
+                  }
+                  .skill[data-skill="7"] span{
+                    width: 70%;
+                        background-color: red;
+                        display: inline-block;
+                      }
+  hgroup{
+    color: red;
+  }
+  .experience-date-separator{
+    color:#ff0000;
+  }
+ 
