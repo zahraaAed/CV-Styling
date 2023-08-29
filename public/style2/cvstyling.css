@@ -4,16 +4,6 @@ h4{
   h2{
     display: none;
   }
-
-  header div{
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-start;
-    padding-left: 100px;
-    background-color: gray;
-    padding: 10px 140px;
-    height: 150px;
-  }
   header div{
     display: flex;
     flex-direction:row;

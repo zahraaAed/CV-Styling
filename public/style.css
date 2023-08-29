@@ -1,7 +1,7 @@
 
 body{
     margin-left: 100px;
-    margin-top: 70px;
+    margin-top: 10px;
 }
 body{
     padding: 50px 100px;
@@ -26,6 +26,7 @@ figure img{
     transform: rotate(-15deg);
     width: 200px;
     height: 200px;
+    padding-right: 250px;
 
 }
 #about{
@@ -189,4 +190,7 @@ section h3{
     font-style: italic;
 }
 
+}
+.experience-description{
+    width: 100%;
 }
