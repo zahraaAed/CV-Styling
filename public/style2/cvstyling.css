@@ -1,6 +1,9 @@
 h4{
     color:red;
   }
+  h2{
+    display: none;
+  }
 
   header div{
     display: flex;
@@ -9,6 +12,7 @@ h4{
     padding-left: 100px;
     background-color: gray;
     padding: 10px 140px;
+    height: 150px;
   }
   header div{
     display: flex;
@@ -29,6 +33,15 @@ h3 {
     position: relative;
    
   }
+  .experience-institution::before{
+    content: "@";
+  }
+  .experience-location::before{
+    content: "In";
+  }
+  .experience-location::after{
+    content: "on";
+  }
   
   h3::before {
     content: "\2022"; /* Unicode character for a circle bullet */
@@ -36,6 +49,7 @@ h3 {
     margin-right: 0.3em;
     color: #ff0000;
     font-size: 2em;
+    
     
   }
 
@@ -55,7 +69,7 @@ h3 {
   }
   #contact{
   position: absolute;
-  top: 7px;
+  top: 40px;
   right: 0;
   line-height: 1.5;
   }
@@ -65,6 +79,8 @@ h3 {
     align-items: baseline;
     margin: 0%;
     padding-right: 470px;
+    margin: 0px;
+
   
   }
   .contact-type{
@@ -133,3 +149,9 @@ margin-left: 0px;
     color:#ff0000;
   }
  
+@media all and (min-width:1100px){
+  header{
+      background-color: gray;
+      padding: 10px 140px;
+  }
+}
